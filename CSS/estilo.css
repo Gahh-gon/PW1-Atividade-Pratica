@@ -1,0 +1,124 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-image: url(../IMG/imagem-no-corpo.jpeg);
+
+   
+    background-size: cover;
+
+}
+.titulo{
+    font-family: monospace;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #0D0D0D;
+    text-shadow: 1px 1px 1px #f2f2f2a9;
+    
+    font-family: 'VT323', monospace;
+
+  
+
+    
+  
+}
+.imagemtitulo{
+    background-image: url(../IMG/imagem-titulo.jpg);
+    padding: 20px;
+    
+
+ 
+   
+}
+.menu{
+    background-color: black;
+
+  margin-bottom: 10px;
+  padding: 5px;
+  
+   
+    
+}
+.menu a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    color: rgba(255, 255, 255, 0.603);
+}
+.menu a:hover{
+    color: rgb(39, 39, 39);
+    background-color: rgba(0, 34, 34, 0.507);
+  
+}
+.conteudo{
+    
+    background-color: #141C2B;
+    margin: auto ;
+    width: 500px;
+    padding: 40px;
+
+
+}
+.conteudo h2{
+    color: #4f88d8;
+    margin-bottom: 30px;
+}
+
+/*  parte do supercombo    */
+
+
+.bloco1{
+    text-align: center;
+    color: #4674b4;
+    
+    
+     
+}
+.bloco1 img{
+    width: 60%;
+    
+
+}
+
+.bloco1 li{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.icon-avaçar{
+
+    width: 30%;
+    margin-left: 200px;
+
+}
+
+.letra-do-Supercombo p {
+
+font-family: Arial, Helvetica, sans-serif;
+text-align:  left;
+margin-bottom: 20px;
+
+
+
+
+    }
+
+
+    footer img{
+ 
+        width: 3%;
+     
+    }
+
+
+
