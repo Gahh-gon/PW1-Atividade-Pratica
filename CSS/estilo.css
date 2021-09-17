@@ -123,7 +123,7 @@ color: rgb(182, 182, 182);
 .bloco1 audio{
 
    border-radius: 0px;
-    background-color: #0c0c0b;
+    background-color:#f1f3f4;
 }
 
 
@@ -135,6 +135,7 @@ color: rgb(182, 182, 182);
     color: #4674b4;
     
 }
+
 .bloco1  > p{
     color: #4674b4;
 }
