@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 *{
@@ -62,49 +62,7 @@ body{
     background-size: cover;
 
 }
-.titulo{
-    font-family: monospace;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 700;
-    color: #0D0D0D;
-    text-shadow: 1px 1px 1px #f2f2f2a9;
-    
-    font-family: 'VT323', monospace;
 
-  
-
-    
-  
-}
-.imagemtitulo{
-    background-image: url(../IMG/imagem-titulo.jpg);
-    padding: 20px;
-    
-
- 
-   
-}
-.menu{
-    background-color: black;
-
-  margin-bottom: 10px;
-  padding: 5px;
-  
-   
-    
-}
-.menu a{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 3px;
-    color: rgba(255, 255, 255, 0.603);
-}
-.menu a:hover{
-    color: rgb(39, 39, 39);
-    background-color: rgba(0, 34, 34, 0.507);
-  
-}
 
 .conteudo-do-clipe{
     border-radius: 7px;
@@ -116,6 +74,7 @@ body{
 }
 
 .conteudo-do-clipe h2{
+    font-family: 'Comfortaa', cursive;
 color: #1a1a17;
 font-size: 28px;
 margin-bottom: 40px;
@@ -127,6 +86,31 @@ font-size: 20px;
 color: #1a1a17;
 }
 
+
+.botoesdedireção > .avaçar{
+    margin-top: 10px;
+   
+    background-color: #1a1919;
+    border-radius: 10px;
+    float: right;
+    
+    width: 10%;
+    
+    
+    
+    
+    
+    
+    }
+    .botoesdedireção > .voltar{
+    margin-top: 10px;
+        
+    background-color: #1a1919;
+    border-radius: 10px;
+     float: left;
+     width: 10%;
+    
+    }
 
 .clipe{
 

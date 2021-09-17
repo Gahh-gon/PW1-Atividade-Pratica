@@ -1,5 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
+
+
+
 
 *{
     padding: 0px;
@@ -8,28 +13,40 @@
 
 
 :root{
-    --corDoConteudo:rgb(172, 6, 6);
+    --fontePadrao:Arial, Helvetica, sans-serif;
+    --fonteDoTitulo: 'VT323', monospace;
+    --corDoConteudo:rgb(150, 0, 0);
+    --corDosBotoes:rgb(56, 3, 3);
+ --corDaLetraDaMusica:#ff3f3c;
+   
+
+
     --cor1:#f35b58 ;
-    --cor2:#fc9b99;
+    --cor2:#f3d5d4;
+
+   
 }
 
 
 body{
     background-image: url(../IMG/imagem-no-corpo.jpeg);
 
+    font-family:var(--fontePadrao) ;
+
     background-size: cover;
 }
 
 
 .titulo{
-    font-family: monospace;
+
+  font-family: var(--fonteDoTitulo);
     text-align: center;
     font-size: 25px;
     font-weight: 700;
     color: #0D0D0D;
     text-shadow: 1px 1px 1px #f2f2f2a9;
     
-    font-family: 'VT323', monospace;
+ 
 
   
 
@@ -55,7 +72,7 @@ body{
 }
 .menu a{
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+ 
     padding: 3px;
     color: rgba(255, 255, 255, 0.603);
 }
@@ -66,26 +83,24 @@ body{
 }
 
 
-
-
-
 .conteudo{
 background-color: var(--corDoConteudo);
-
+border-radius: 7px;
 margin: auto;
 width: 500px;
 padding: 40px;
 }
 .conteudo > h2{
-    color: var(--cor1);
-
+    color: var(--cor2);
+    font-family: 'Comfortaa', cursive;
 }
 .bloco2 li{
     font-size: 20px;
     margin-bottom: 20px;
     text-align: center;
-    color: var(--cor1);
+    color: var(--cor2);
 }
+
 
 .bloco2 img{
     width: 60%;
@@ -98,21 +113,15 @@ padding: 40px;
     display: block;
 margin: auto ;
 }
+.bloco2 audio{
 
-.letra-do-Ogrilo > p{
-color: var(--cor1);
-font-family: Arial, Helvetica, sans-serif;
-margin-bottom: 10px;
-text-align: left;
+    background-color: black;
 }
-.letra-do-Ogrilo h2{
-margin-top: 90px;
-    color: var(--cor2);
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
-}
-.avaçar{
 
+.botoesdedireção > .avaçar{
+  
+background-color:var(--corDosBotoes) ;
+border-radius: 20px;
 float: right;
 
 width: 20%;
@@ -122,14 +131,59 @@ width: 20%;
 
 
 }
-.voltar{
+.botoesdedireção > .voltar{
 
     
-
+background-color:var(--corDosBotoes);
+border-radius: 20px;
  float: left;
  width: 20%;
 
 }
+
+.letra-do-Ogrilo > p{
+color: var(--corDaLetraDaMusica);
+
+margin-bottom: 10px;
+text-align: left;
+}
+
+.letra-do-Ogrilo h2{
+margin-top: 90px;
+    color: var(--cor2);
+   
+    margin-bottom: 20px;
+    width: 200px;
+}
+.letra-do-Ogrilo h2:hover{
+
+    color: rgb(221, 0, 0);
+    text-decoration: underline;
+
+} .referecia img{
+ 
+    width: 3%;
+ 
+}
+
+footer{
+  
+
+    margin-top: 50px;
+ 
+    
+}
+
+
+.referecia a {
+    text-decoration: none;
+    color:rgb(255, 113, 113);
+}
+
+.referecia p :hover{
+    color: rgb(241, 241, 245);
+}
+
 
 
 
