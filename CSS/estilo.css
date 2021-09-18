@@ -129,12 +129,17 @@ color: rgb(182, 182, 182);
 
 
 .bloco1 li{
-    font-size: 20px;
+
+    
+    font-size: 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
     color: #4674b4;
     
+    
 }
+
 
 .bloco1  > p{
     color: #4674b4;
