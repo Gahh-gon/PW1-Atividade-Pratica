@@ -1,0 +1,48 @@
+
+body{
+
+background-color: rgb(37, 33, 33);
+
+
+
+}
+
+
+
+.navbar-expand-md{
+
+background-color: black;
+
+
+}
+.espaco{
+
+
+bottom: 1px;
+
+}
+.featurette-heading {
+    text-align: center;
+    font-weight: 300;
+    line-height: 5;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+    
+  }
+
+  .imag{
+
+
+display: flex;
+margin: auto;
+
+  }
+  .review{
+
+margin-left: 100px;
+border: solid black;
+width: 495px;
+height: 306px;
+border-radius: 10px;
+
+}
