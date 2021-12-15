@@ -35,6 +35,9 @@ bottom: 1px;
 
 display: flex;
 margin: auto;
+border-radius: 3px;
+
+
 
   }
   .review{
@@ -44,5 +47,17 @@ border: solid black;
 width: 495px;
 height: 306px;
 border-radius: 10px;
+
+}.bride_imagem{
+
+
+  border: solid black;
+  display: flex;
+
+  margin-left: 100px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+ 
+
 
 }
